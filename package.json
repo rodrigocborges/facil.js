@@ -1,0 +1,20 @@
+{
+  "name": "facil.js",
+  "version": "0.0.1",
+  "description": "A true toolbox for DOM manipulation, HTTP requests and templating",
+  "scripts": {
+    "build": "npx terser src/facil.js -o dist/facil.min.js --compress --mangle --comments all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigocborges/facil.js.git"
+  },
+  "keywords": [],
+  "author": "Rodrigo Borges",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/rodrigocborges/facil.js/issues"
+  },
+  "homepage": "https://github.com/rodrigocborges/facil.js#readme"
+}
